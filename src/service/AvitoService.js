@@ -18,12 +18,13 @@ export function getList() {
 //добавление коментов
 
 export function setItem(item) {
-  return fetch('http://localhost:3333/comment', {
-    method: 'POST',
+  console.log(item)
+  return fetch(`http://localhost:3333/comment/${item.id}`, {
+    method: 'PUT',
     headers: {
       'Content-Type': 'application/json'
     },
-    body: JSON.stringify({ item })
+    body: JSON.stringify(item)
   })
     .then(data => data.json())
  }

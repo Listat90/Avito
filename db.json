@@ -1,31 +1,30 @@
 {
-  "comment":[
+  "comment": [
     {
       "id": "237",
-      "comments":[
-      
+      "comments": [
         {
-          "item": "привет",
+          "item": "test",
+          "id": 0
+        },
+        {
+          "item": "test2",
           "id": 1
         },
         {
-          "item": "как дела",
+          "item": "test3",
           "id": 2
-        },
-        {
-          "item": "агностик ",
-          "id": 3
-        },
-        {
-          "item": "агностик ",
-          "id": 4
-        },
-        {
-          "item": "привет",
-          "id": 5
         }
-      
-    ]
-      }
-    ]
+      ]
+    },
+    {
+      "id": "238",
+      "comments": [
+        {
+          "item": "test4",
+          "id": 0
+        }
+      ]
+    }
+  ]
 }
