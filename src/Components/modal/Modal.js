@@ -19,6 +19,16 @@ const Modal = (props)=> {
         }
     }, [props.imageId])
 
+    useEffect(() => {
+        if(alert) {
+          setTimeout(() => {
+            setAlert(false);
+          }, 1000)
+        }
+      }, [alert])
+
+      
+
    const handleSubmit = (e) => {
     e.preventDefault();
     setItem({id: props.imageId, comments: [...comments, {item: itemInput, id: comments.length}]})
