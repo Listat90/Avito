@@ -24,8 +24,8 @@ const PhotoList = ()=>{
         })
     }, [])
         return (
-
-            <div className='photo_list'>
+           
+                <div className='photo_list'>
                     <ul className='photo_grid'>
                         {list.map(item => (
                    
@@ -61,6 +61,8 @@ const PhotoList = ()=>{
             </Modal>
             
                 </div>
+          
+            
 
                 
         )

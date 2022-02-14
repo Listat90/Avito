@@ -35,12 +35,21 @@
         {
           "item": "test5",
           "id": 1
+        },
+        {
+          "item": "привет",
+          "id": 2
         }
       ]
     },
     {
       "id": "239",
-      "comments": []
+      "comments": [
+        {
+          "item": "test_modal",
+          "id": 0
+        }
+      ]
     },
     {
       "id": "240",
@@ -53,7 +62,12 @@
     },
     {
       "id": "241",
-      "comments": []
+      "comments": [
+        {
+          "item": "test_comment",
+          "id": 0
+        }
+      ]
     },
     {
       "id": "242",
